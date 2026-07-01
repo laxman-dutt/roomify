@@ -3,7 +3,6 @@ import  React, { useState, useCallback, useEffect, useRef, type ChangeEvent } fr
 import { useOutletContext } from 'react-router';
 
 import {  PROGRESS_INCREMENT, REDIRECT_DELAY_MS, PROGRESS_INTERVAL_MS } from "../lib/constants";
-import { time } from 'console';
 
 interface UploadProps {
   onComplete?: (base64: string) => void;
